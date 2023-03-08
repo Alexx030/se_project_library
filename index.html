@@ -20,20 +20,20 @@
           />
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
-            <li id="Staff picks">
-              <a href="#" class="nav__link">Staff picks</a>
+            <li id="staff-picks">
+              <a href="#staff-picks" class="nav__link">Staff picks</a>
             </li>
-            <li id="Events">
-              <a href="#" class="nav__link">Events</a>
+            <li id="events">
+              <a href="#events" class="nav__link">Events</a>
             </li>
-            <li id="Become-a-member">
-              <a href="#" class="nav__link">Become a member</a>
+            <li id="membership">
+              <a href="#membership" class="nav__link">Become a member</a>
             </li>
-            <li id="About">
-              <a href="#" class="nav__link">About</a>
+            <li id="about">
+              <a href="#about" class="nav__link">About</a>
             </li>
-            <li id="Footer">
-              <a href="#" class="nav__link">Contacts</a>
+            <li id="footer">
+              <a href="#footer" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a href="#" class="header__link">About the library &darr;</a>
+          <a href="#about" class="header__link">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -60,7 +60,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <!-- --------------------------------------------------------------- -->
           <!--              Don't uncomment until project stage 2              -->
           <!-- --------------------------------------------------------------- -->
@@ -92,7 +92,7 @@
               prove that this hasn't been the case since at least the 18th
               century.
             </p>
-            <a href="#" class="events__more">More events &rarr;</a>
+            <a href="#events" class="events__more">More events &rarr;</a>
           </div>
           <div class="events__cover">
             <img
@@ -143,13 +143,13 @@
           </div>
         </section>
 
-        <section class="staff">
+        <section class="staff" id="staff-picks">
           <!-- --------------------------------------------------------------- -->
           <!--        Don't uncomment until the final project stage            -->
           <!-- --------------------------------------------------------------- -->
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul class="staff__picks">
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -220,7 +220,7 @@
           </ul>
         </section>
 
-        <section class="membership">
+        <section class="membership" id="membership">
           <!-- --------------------------------------------------------------- -->
           <!--         Don't uncomment until the final project stage           -->
           <!-- --------------------------------------------------------------- -->
@@ -279,7 +279,7 @@
           </ul>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
           <!-- --------------------------------------------------------------- -->
           <!--          Don't uncomment until the final project stage          -->
           <!-- --------------------------------------------------------------- -->
@@ -306,7 +306,7 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <!-- ----------------------------------------------------------------- -->
         <!--          Don't uncomment until the final project stage            -->
         <!-- ----------------------------------------------------------------- -->
@@ -325,7 +325,7 @@
             <h2 class="footer__column-heading">Social media</h2>
             <ul class="footer__list">
               <li id="Facebook" class="footer__list-item">
-                <a href="#" class="footer__column-link">
+                <a href="#facebook" class="footer__column-link">
                   <img
                     src="images/facebook_white.svg"
                     alt="facebook icon"
@@ -335,7 +335,7 @@
                 </a>
               </li>
               <li id="Instagram" class="footer__list-item">
-                <a href="#" class="footer__column-link">
+                <a href="#instagram" class="footer__column-link">
                   <img
                     src="images/instagram_white.svg"
                     alt="instagram icon"
@@ -346,8 +346,8 @@
               </li>
             </ul>
           </div>
-          <p class="footer__copyright">&#169; 2023 Alexx Banchongchith</p>
         </div>
+        <p class="footer__copyright">&#169; 2023 Alexx Banchongchith</p>
       </footer>
     </div>
   </body>
